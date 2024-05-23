@@ -1,0 +1,81 @@
+body {
+    background-color:#36383d;
+    color:#fff;
+}
+.container{
+    display:flex;
+    flex-direction:column;
+    height:50vh;
+    align-items:center;
+    justify-content:center;
+}
+.prompt{
+padding:5px;
+    background-color:#666;
+}
+.prompt input{
+    padding:5px;
+    background:none;
+    border:0;
+    color:#fff;
+}
+.prompt button{
+    padding:5px;
+    background:none;
+    border:3px solid #36383d;
+    color:#fff;
+    border-radius:2px;
+}
+.list{
+    background-color:#666;
+    margin-top:10px;
+    text-align:center;
+    width:300px;
+}
+.list ul{
+    list-style:none;
+    width:200px;
+}
+.list ul li{
+    background-color:#36383d;
+    padding:10px;
+    margin:10px;
+    text-align: left;
+}
+span{
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #fff;
+    padding: 3px;
+    text-align: center;
+    position: relative;
+    float: right;
+    cursor: pointer;
+    width: 20px;
+    height: 15px;
+    border-radius: 10px;
+
+
+}
+.btn{
+    color: #fff;
+    background-color: #666;
+    width: 20px;
+    height: 20px;
+    border: none;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px;
+    text-align: center;
+    position: relative;
+    float: left;
+    cursor: pointer;
+    margin-right: 5px;
+    border-radius: 10px;
+
+}
+.active{
+   color:grey;
+   opacity: 0.5;
+}
